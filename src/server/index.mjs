@@ -14,21 +14,21 @@ app.use((req, res, next) => {
   next();
 });
 
-// CORSの設定を更新
-// CORSの設定を更新（既存のapp.use(cors())を置き換え）
+// CORSの設定
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://eagles-backend.onrender.com'  // RenderのバックエンドURL
+    'https://eagles-frontend.onrender.com', // フロントエンドURL（Render）
+    'https://eagles-backend.onrender.com'  // バックエンドURL（Render）
   ],
   methods: ['GET', 'POST', 'OPTIONS'],
   credentials: true
 }));
 
-
 app.use(express.json());
 
-const port = 3001;
+// ポート番号の設定
+const port = process.env.PORT || 3001;
 
 // テスト用エンドポイント
 app.get('/test', (req, res) => {
@@ -73,6 +73,7 @@ app.post('/api/claude', async (req, res) => {
   }
 });
 
+// サーバー起動
 const server = app.listen(port, '0.0.0.0', () => {
   console.log(`Server is running at http://localhost:${port}`);
   console.log('Environment check:', {
