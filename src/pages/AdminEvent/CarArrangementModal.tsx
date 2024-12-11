@@ -65,23 +65,6 @@ const CarArrangementModal: React.FC<Props> = ({
     }
   };
 
-  const handleSave = async () => {
-    try {
-      //This needs to be replaced with actual arrangement logic
-      const result = await arrangeCards(attendances, specialInstructions); 
-      if (result) {
-        await DatabaseService.saveCarArrangement(eventId, result);
-        onComplete(result);
-        setArrangementResult(result); // Assuming setArrangement is a typo and should be setArrangementResult
-        onClose();
-      }
-    } catch (error) {
-      console.error("配車処理エラー:", error);
-      alert("配車処理に失敗しました。もう一度お試しください。");
-    }
-  };
-
-
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
       <div className="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto">
@@ -184,7 +167,19 @@ const CarArrangementModal: React.FC<Props> = ({
                   再計算
                 </button>
                 <button
-                  onClick={handleSave}
+                  onClick={async () => {
+                    try {
+                      await DatabaseService.saveCarArrangement(
+                        eventId,
+                        arrangementResult,
+                      );
+                      onComplete?.(arrangementResult);
+                      onClose();
+                    } catch (error) {
+                      console.error("配車結果の保存に失敗:", error);
+                      alert("配車結果の保存に失敗しました");
+                    }
+                  }}
                   className="flex-1 bg-green-600 text-white p-4 rounded-lg"
                 >
                   確定

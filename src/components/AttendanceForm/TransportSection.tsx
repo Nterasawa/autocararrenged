@@ -28,14 +28,14 @@ export const TransportSection: React.FC<Props> = ({
               type="radio"
               name="canDrive"
               value="○"
+              checked={formData.canDrive === "○"}
               onChange={(e) =>
                 setFormData({
                   ...formData,
                   canDrive: e.target.value as "○" | "×",
                 })
               }
-              className="hidden"
-              required
+              className="sr-only"
             />
             ○
           </label>
@@ -50,13 +50,14 @@ export const TransportSection: React.FC<Props> = ({
               type="radio"
               name="canDrive"
               value="×"
+              checked={formData.canDrive === "×"}
               onChange={(e) =>
                 setFormData({
                   ...formData,
                   canDrive: e.target.value as "○" | "×",
                 })
               }
-              className="hidden"
+              className="sr-only"
             />
             ×
           </label>
@@ -77,7 +78,6 @@ export const TransportSection: React.FC<Props> = ({
                 availableSeats: parseInt(e.target.value),
               })
             }
-            required
           >
             {[0, 1, 2, 3, 4, 5].map((num) => (
               <option key={num} value={num}>

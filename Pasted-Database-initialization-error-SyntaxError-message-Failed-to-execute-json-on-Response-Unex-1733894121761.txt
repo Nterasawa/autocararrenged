@@ -1,0 +1,59 @@
+Database initialization error: 
+SyntaxError {message: "Failed to execute 'json' on 'Response': Unexpected end of JSON input"}
+
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+データベース初期化エラー: 
+SyntaxError {message: "Failed to execute 'json' on 'Response': Unexpected end of JSON input"}
+message: "Failed to execute 'json' on 'Response': Unexpected end of JSON input"
+stack: "SyntaxError: Unexpected end of JSON input↵ at DatabaseService.initializeDatabase (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/services/database.ts:5:29)↵ at async initDB (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/App.tsx:29:9)"
+get stack: ƒ ()
+length: 0
+name: ""
+[[Prototype]]: ƒ ()
+set stack: ƒ ()
+[[Prototype]]: Object
+
+Get events error: 
+SyntaxError {message: "Failed to execute 'json' on 'Response': Unexpected end of JSON input"}
+message: "Failed to execute 'json' on 'Response': Unexpected end of JSON input"
+stack: "SyntaxError: Unexpected end of JSON input↵ at DatabaseService.getEvents (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/services/database.ts:14:29)↵ at async loadEvents (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/pages/EventList.tsx:34:26)"
+get stack: ƒ ()
+length: 0
+name: ""
+[[Prototype]]: ƒ ()
+set stack: ƒ ()
+[[Prototype]]: Object
+
+Get events error: 
+SyntaxError {message: "Failed to execute 'json' on 'Response': Unexpected end of JSON input"}
+message: "Failed to execute 'json' on 'Response': Unexpected end of JSON input"
+stack: "SyntaxError: Unexpected end of JSON input↵ at DatabaseService.getEvents (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/services/database.ts:14:29)↵ at async loadEvents (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/pages/EventList.tsx:34:26)"
+get stack: ƒ ()
+set stack: ƒ ()
+length: 1
+name: ""
+[[Prototype]]: ƒ ()
+[[Prototype]]: Object
+
+Database initialization error: 
+SyntaxError {}
+
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+データベース初期化エラー: 
+SyntaxError {}
+message: "Unexpected end of JSON input"
+stack: "SyntaxError: Unexpected end of JSON input"
+get stack: ƒ ()
+set stack: ƒ ()
+[[Prototype]]: Object
+
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400

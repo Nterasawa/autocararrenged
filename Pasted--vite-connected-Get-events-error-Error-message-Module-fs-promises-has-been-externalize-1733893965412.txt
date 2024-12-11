@@ -1,0 +1,51 @@
+[vite] connected.
+Get events error: 
+Error {}
+message: "Module "fs/promises" has been externalized for browser compatibility. Cannot access "fs/promises.readFile" in client code."
+stack: "Error: Module "fs/promises" has been externalized for browser compatibility. Cannot access "fs/promises.readFile" in client code.↵ at Object.get (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/@id/__vite-browser-external:fs/promises:3:11)↵ at DatabaseService.getEvents (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/services/database.ts:20:29)↵ at loadEvents (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/pages/EventList.tsx:34:48)↵ at https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/pages/EventList.tsx:31:5↵ at commitHookEffectListMount (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:16463:34)↵ at commitPassiveMountOnFiber (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:17704:19)↵ at commitPassiveMountEffects_complete (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:17677:17)↵ at commitPassiveMountEffects_begin (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:17667:15)↵ at commitPassiveMountEffects (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:17657:11)↵ at flushPassiveEffectsImpl (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:19010:11)"
+get stack: ƒ ()
+set stack: ƒ ()
+[[Prototype]]: Object
+
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+Database initialization error details: 
+Error {}
+
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+Get events error: 
+Error {}
+message: "Module "fs/promises" has been externalized for browser compatibility. Cannot access "fs/promises.readFile" in client code."
+stack: "Error: Module "fs/promises" has been externalized for browser compatibility. Cannot access "fs/promises.readFile" in client code.↵ at Object.get (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/@id/__vite-browser-external:fs/promises:3:11)↵ at DatabaseService.getEvents (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/services/database.ts:20:29)↵ at loadEvents (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/pages/EventList.tsx:34:48)↵ at https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/pages/EventList.tsx:31:5↵ at commitHookEffectListMount (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:16463:34)↵ at invokePassiveEffectMountInDEV (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:17872:19)↵ at invokeEffectsInDev (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:19221:19)↵ at commitDoubleInvokeEffectsInDEV (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:19206:15)↵ at flushPassiveEffectsImpl (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:19023:13)↵ at flushPassiveEffects (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:18967:22)"
+get stack: ƒ ()
+set stack: ƒ ()
+[[Prototype]]: Object
+
+Database initialization error details: 
+Error {}
+
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+データベース初期化エラー: 
+Error {}
+
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+データベース初期化エラー: 
+Error {}
+
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400

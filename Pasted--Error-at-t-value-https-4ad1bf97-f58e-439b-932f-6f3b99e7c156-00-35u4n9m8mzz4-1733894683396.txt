@@ -1,0 +1,58 @@
+データベース初期化エラー: 
+Error {}
+
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+Get events error: 
+AxiosError {message: "Request failed with status code 500", name: "AxiosError", code: "ERR_BAD_RESPONSE", config: {…}, request: XMLHttpRequest, …}
+code: "ERR_BAD_RESPONSE"
+config: Object
+message: "Request failed with status code 500"
+name: "AxiosError"
+request: XMLHttpRequest
+response: Object
+status: 500
+stack: "AxiosError: Request failed with status code 500↵ at settle (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:1203:12)↵ at XMLHttpRequest.onloadend (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:1528:7)↵ at Axios.request (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:2078:41)↵ at async DatabaseService.getEvents (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/services/database.ts:16:24)↵ at async loadEvents (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/pages/EventList.tsx:34:26)"
+get stack: ƒ ()
+set stack: ƒ ()
+[[Prototype]]: Object
+
+Database initialization error: 
+AxiosError {message: "Request failed with status code 500", name: "AxiosError", code: "ERR_BAD_RESPONSE", config: {…}, request: XMLHttpRequest, …}
+code: "ERR_BAD_RESPONSE"
+config: Object
+message: "Request failed with status code 500"
+name: "AxiosError"
+request: XMLHttpRequest
+response: Object
+status: 500
+stack: "AxiosError: Request failed with status code 500↵ at settle (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:1203:12)↵ at XMLHttpRequest.onloadend (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:1528:7)↵ at Axios.request (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:2078:41)↵ at async DatabaseService.initializeDatabase (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/services/database.ts:5:24)↵ at async initDB (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/App.tsx:29:9)"
+get stack: ƒ ()
+set stack: ƒ ()
+[[Prototype]]: Object
+
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+データベース初期化エラー: 
+Error {}
+
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+AxiosError {message: "Request failed with status code 500", name: "AxiosError", code: "ERR_BAD_RESPONSE", config: {…}, request: XMLHttpRequest, …}
+code: "ERR_BAD_RESPONSE"
+config: Object
+message: "Request failed with status code 500"
+name: "AxiosError"
+request: XMLHttpRequest
+response: Object
+status: 500
+stack: "AxiosError: Request failed with status code 500↵ at settle (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:1203:12)↵ at XMLHttpRequest.onloadend (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:1528:7)↵ at Axios.request (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:2078:41)↵ at async DatabaseService.getEvents (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/services/database.ts:16:24)↵ at async loadEvents (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/pages/EventList.tsx:34:26)"
+get stack: ƒ ()
+set stack: ƒ ()
+[[Prototype]]: Object

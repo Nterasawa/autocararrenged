@@ -1,0 +1,27 @@
+Save attendance error: 
+AxiosError {message: "Request failed with status code 404", name: "AxiosError", code: "ERR_BAD_REQUEST", config: {…}, request: XMLHttpRequest, …}
+code: "ERR_BAD_REQUEST"
+config: Object
+message: "Request failed with status code 404"
+name: "AxiosError"
+request: XMLHttpRequest
+response: Object
+status: 404
+stack: "AxiosError: Request failed with status code 404↵ at settle (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co:3000/node_modules/.vite/deps/axios.js?v=a4c19e8a:1246:12)↵ at XMLHttpRequest.onloadend (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co:3000/node_modules/.vite/deps/axios.js?v=a4c19e8a:1577:7)↵ at Axios.request (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co:3000/node_modules/.vite/deps/axios.js?v=a4c19e8a:2135:41)↵ at async DatabaseService.saveAttendance (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co:3000/src/services/database.ts:42:24)↵ at async handleSubmit (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co:3000/src/components/AttendanceForm/index.tsx:97:7)"
+get stack: ƒ ()
+set stack: ƒ ()
+[[Prototype]]: Object
+
+出欠登録エラー: 
+AxiosError {message: "Request failed with status code 404", name: "AxiosError", code: "ERR_BAD_REQUEST", config: {…}, request: XMLHttpRequest, …}
+code: "ERR_BAD_REQUEST"
+config: Object
+message: "Request failed with status code 404"
+name: "AxiosError"
+request: XMLHttpRequest
+response: Object
+status: 404
+stack: "AxiosError: Request failed with status code 404↵ at settle (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co:3000/node_modules/.vite/deps/axios.js?v=a4c19e8a:1246:12)↵ at XMLHttpRequest.onloadend (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co:3000/node_modules/.vite/deps/axios.js?v=a4c19e8a:1577:7)↵ at Axios.request (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co:3000/node_modules/.vite/deps/axios.js?v=a4c19e8a:2135:41)↵ at async DatabaseService.saveAttendance (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co:3000/src/services/database.ts:42:24)↵ at async handleSubmit (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co:3000/src/components/AttendanceForm/index.tsx:97:7)"
+get stack: ƒ ()
+set stack: ƒ ()
+[[Prototype]]: Object

@@ -1,0 +1,54 @@
+データベース初期化エラー: 
+Error {}
+
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+Get events error: 
+AxiosError {message: "Network Error", name: "AxiosError", code: "ERR_NETWORK", config: {…}, request: XMLHttpRequest}
+code: "ERR_NETWORK"
+config: Object
+message: "Network Error"
+name: "AxiosError"
+request: XMLHttpRequest
+stack: "AxiosError: Network Error↵ at XMLHttpRequest.handleError (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:1558:14)↵ at Axios.request (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:2078:41)↵ at async DatabaseService.getEvents (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/services/database.ts:19:24)↵ at async loadEvents (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/pages/EventList.tsx:34:26)"
+get stack: ƒ ()
+set stack: ƒ ()
+[[Prototype]]: Object
+
+Database initialization error: 
+AxiosError {message: "Network Error", name: "AxiosError", code: "ERR_NETWORK", config: {…}, request: XMLHttpRequest}
+
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+データベース初期化エラー: 
+Error {}
+
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+AxiosError {message: "Network Error", name: "AxiosError", code: "ERR_NETWORK", config: {…}, request: XMLHttpRequest}
+code: "ERR_NETWORK"
+config: Object
+message: "Network Error"
+name: "AxiosError"
+request: XMLHttpRequest
+stack: "AxiosError: Network Error↵ at XMLHttpRequest.handleError (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:1558:14)↵ at Axios.request (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:2078:41)↵ at async DatabaseService.getEvents (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/services/database.ts:19:24)↵ at async loadEvents (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/pages/EventList.tsx:34:26)"
+get stack: ƒ ()
+set stack: ƒ ()
+[[Prototype]]: Object
+
+AxiosError {message: "Network Error", name: "AxiosError", code: "ERR_NETWORK", config: {…}, request: XMLHttpRequest}
+code: "ERR_NETWORK"
+config: Object
+message: "Network Error"
+name: "AxiosError"
+request: XMLHttpRequest
+stack: "AxiosError: Network Error↵ at XMLHttpRequest.handleError (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:1558:14)↵ at Axios.request (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:2078:41)↵ at async DatabaseService.getEvents (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/services/database.ts:19:24)↵ at async loadEvents (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/pages/EventList.tsx:34:26)"
+get stack: ƒ ()
+set stack: ƒ ()
+[[Prototype]]: Object

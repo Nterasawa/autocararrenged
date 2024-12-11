@@ -25,14 +25,14 @@ export const CoachSection: React.FC<Props> = ({ formData, setFormData }) => {
               type="radio"
               name="needsOnigiri"
               value="必要"
+              checked={formData.needsOnigiri === "必要"}
               onChange={(e) =>
                 setFormData({
                   ...formData,
                   needsOnigiri: e.target.value as "必要" | "不要",
                 })
               }
-              className="hidden"
-              required
+              className="sr-only"
             />
             必要
           </label>
@@ -47,13 +47,14 @@ export const CoachSection: React.FC<Props> = ({ formData, setFormData }) => {
               type="radio"
               name="needsOnigiri"
               value="不要"
+              checked={formData.needsOnigiri === "不要"}
               onChange={(e) =>
                 setFormData({
                   ...formData,
                   needsOnigiri: e.target.value as "必要" | "不要",
                 })
               }
-              className="hidden"
+              className="sr-only"
             />
             不要
           </label>
@@ -76,14 +77,14 @@ export const CoachSection: React.FC<Props> = ({ formData, setFormData }) => {
               type="radio"
               name="needsCarArrangement"
               value="○"
+              checked={formData.needsCarArrangement === "○"}
               onChange={(e) =>
                 setFormData({
                   ...formData,
                   needsCarArrangement: e.target.value as "○" | "×",
                 })
               }
-              className="hidden"
-              required
+              className="sr-only"
             />
             ○
           </label>
@@ -98,13 +99,14 @@ export const CoachSection: React.FC<Props> = ({ formData, setFormData }) => {
               type="radio"
               name="needsCarArrangement"
               value="×"
+              checked={formData.needsCarArrangement === "×"}
               onChange={(e) =>
                 setFormData({
                   ...formData,
                   needsCarArrangement: e.target.value as "○" | "×",
                 })
               }
-              className="hidden"
+              className="sr-only"
             />
             ×
           </label>

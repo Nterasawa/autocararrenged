@@ -1,0 +1,61 @@
+データベース初期化エラー: 
+TypeError {}
+
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+Failed to fetch
+at window.fetch (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:218642)
+at DatabaseService.initializeDatabase (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/services/database.ts:5:13)
+at initDB (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/App.tsx:29:31)
+at https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/App.tsx:34:5
+at commitHookEffectListMount (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:16463:34)
+at commitPassiveMountOnFiber (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:17704:19)
+at commitPassiveMountEffects_complete (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:17677:17)
+at commitPassiveMountEffects_begin (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:17667:15)
+at commitPassiveMountEffects (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:17657:11)
+at flushPassiveEffectsImpl (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:19010:11)
+データベース初期化エラー: 
+TypeError {}
+
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+Failed to fetch
+at window.fetch (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:218642)
+at DatabaseService.initializeDatabase (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/services/database.ts:5:13)
+at initDB (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/App.tsx:29:31)
+at https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/App.tsx:34:5
+at commitHookEffectListMount (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:16463:34)
+at invokePassiveEffectMountInDEV (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:17872:19)
+at invokeEffectsInDev (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:19221:19)
+at commitDoubleInvokeEffectsInDEV (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:19206:15)
+at flushPassiveEffectsImpl (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:19023:13)
+at flushPassiveEffects (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:18967:22)
+イベント保存エラー: 
+TypeError {}
+
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+イベント作成エラー: 
+Error {}
+
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+Failed to fetch
+at window.fetch (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/__replco/static/devtools/eruda/3.2.3/eruda.js:2:218642)
+at DatabaseService.saveEvent (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/services/database.ts:23:30)
+at handleCreateEvent (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/pages/EventList.tsx:50:29)
+at HTMLUnknownElement.callCallback2 (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:3575:22)
+at Object.invokeGuardedCallbackDev (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:3600:24)
+at invokeGuardedCallback (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:3634:39)
+at invokeGuardedCallbackAndCatchFirstError (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:3637:33)
+at executeDispatch (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:6672:11)
+at processDispatchQueueItemsInOrder (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:6692:15)
+at processDispatchQueue (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/chunk-JYVYKY3Q.js?v=38d53a20:6701:13)

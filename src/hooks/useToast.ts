@@ -1,28 +1,22 @@
-
-import { toast } from 'react-toastify';
+import { useState, useCallback } from "react";
 
 export const useToast = () => {
-  const showError = (message: string) => {
-    toast.error(message, {
-      position: "top-center",
-      autoClose: 5000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-    });
-  };
+  const [isVisible, setIsVisible] = useState(false);
+  const [message, setMessage] = useState("");
 
-  const showSuccess = (message: string) => {
-    toast.success(message, {
-      position: "top-center",
-      autoClose: 3000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-    });
-  };
+  const showToast = useCallback((newMessage: string) => {
+    setMessage(newMessage);
+    setIsVisible(true);
+  }, []);
 
-  return { showError, showSuccess };
+  const hideToast = useCallback(() => {
+    setIsVisible(false);
+  }, []);
+
+  return {
+    isVisible,
+    message,
+    showToast,
+    hideToast,
+  };
 };

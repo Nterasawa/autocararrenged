@@ -1,74 +1,82 @@
-
 import express from 'express';
 import cors from 'cors';
-import fs from 'fs/promises';
-import path from 'path';
-import { fileURLToPath } from 'url';
+import fetch from 'node-fetch';
+import dotenv from 'dotenv';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+dotenv.config();
+
 const app = express();
-const DATA_DIR = '/tmp/eagles-data';
-const EVENTS_FILE = path.join(DATA_DIR, 'events.json');
+
+// デバッグログの追加
+app.use((req, res, next) => {
+  console.log('Incoming request:', req.method, req.path);
+  console.log('Request headers:', req.headers);
+  next();
+});
+
+// CORSの設定を更新
+// CORSの設定を更新（既存のapp.use(cors())を置き換え）
+app.use(cors({
+  origin: [
+    'http://localhost:5173',
+    'https://eagles-backend.onrender.com'  // RenderのバックエンドURL
+  ],
+  methods: ['GET', 'POST', 'OPTIONS'],
+  credentials: true
+}));
+
 
 app.use(express.json());
-app.use(cors());
-app.use(express.static(path.join(__dirname, '../../dist')));
 
-const initializeStorage = async () => {
-  try {
-    await fs.mkdir(DATA_DIR, { recursive: true });
-    try {
-      await fs.access(EVENTS_FILE);
-    } catch {
-      await fs.writeFile(EVENTS_FILE, '[]', 'utf8');
-    }
-  } catch (error) {
-    console.error('Storage initialization failed:', error);
-    throw error;
-  }
-};
+const port = 3001;
 
-app.get('/api/health', async (req, res) => {
-  try {
-    await fs.access(DATA_DIR);
-    res.json({ status: 'ok' });
-  } catch (error) {
-    res.status(500).json({ error: true, message: 'Storage access failed' });
-  }
+// テスト用エンドポイント
+app.get('/test', (req, res) => {
+  console.log('Test endpoint hit');
+  res.json({ message: 'Test successful' });
 });
 
-app.get('/api/events', async (req, res) => {
-  try {
-    const data = await fs.readFile(EVENTS_FILE, 'utf8');
-    res.json(JSON.parse(data));
-  } catch (error) {
-    res.status(500).json({ error: true, message: 'Failed to read events' });
-  }
-});
+// Claude APIエンドポイント
+app.post('/api/claude', async (req, res) => {
+  console.log('Claude API endpoint hit');
+  console.log('Request body:', req.body);
 
-app.post('/api/events', async (req, res) => {
   try {
-    const events = JSON.parse(await fs.readFile(EVENTS_FILE, 'utf8'));
-    const newEvent = req.body;
-    events.push(newEvent);
-    await fs.writeFile(EVENTS_FILE, JSON.stringify(events, null, 2));
-    res.status(201).json(newEvent);
-  } catch (error) {
-    res.status(500).json({ error: true, message: 'Failed to create event' });
-  }
-});
-
-const startServer = async () => {
-  try {
-    await initializeStorage();
-    const port = process.env.PORT || 3001;
-    app.listen(port, '0.0.0.0', () => {
-      console.log(`Server running on port ${port}`);
+    const response = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${process.env.VITE_CLAUDE_API_KEY}`,
+        'anthropic-version': '2024-02-29'
+      },
+      body: JSON.stringify({
+        model: "claude-3-sonnet-20240229",
+        max_tokens: 2000,
+        messages: req.body.messages
+      })
     });
-  } catch (error) {
-    console.error('Server failed to start:', error);
-    process.exit(1);
-  }
-};
 
-startServer();
+    console.log('Claude API response status:', response.status);
+
+    if (!response.ok) {
+      const errorData = await response.text();
+      console.error('Claude API Error:', errorData);
+      return res.status(response.status).json({ error: errorData });
+    }
+
+    const data = await response.json();
+    console.log('Successfully received response from Claude API');
+    res.json(data);
+  } catch (error) {
+    console.error('Server Error:', error);
+    res.status(500).json({ error: error.message });
+  }
+});
+
+const server = app.listen(port, '0.0.0.0', () => {
+  console.log(`Server is running at http://localhost:${port}`);
+  console.log('Environment check:', {
+    hasApiKey: !!process.env.VITE_CLAUDE_API_KEY,
+    nodeEnv: process.env.NODE_ENV
+  });
+});

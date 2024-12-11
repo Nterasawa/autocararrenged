@@ -1,0 +1,62 @@
+~/Zi-Dong-Chu-Qian-Pei-Che-Zu-misisutemu$ npm run dev
+
+> eagles-attendance-system@0.1.0 dev
+> node server.js & vite
+
+file:///home/runner/Zi-Dong-Chu-Qian-Pei-Che-Zu-misisutemu/server.js:2
+const express = require('express');
+                ^
+
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/home/runner/Zi-Dong-Chu-Qian-Pei-Che-Zu-misisutemu/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///home/runner/Zi-Dong-Chu-Qian-Pei-Che-Zu-misisutemu/server.js:2:17
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+
+Node.js v20.16.0
+Port 5173 is in use, trying another one...
+
+
+
+  VITE v4.5.5  ready in 778 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://172.31.196.101:5174/
+  ➜  press h to show help
+5:53:15 AM [vite] http proxy error at /api/events:
+Error: connect ECONNREFUSED 0.0.0.0:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1607:16)
+5:53:15 AM [vite] http proxy error at /api/health:
+Error: connect ECONNREFUSED 0.0.0.0:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1607:16)
+5:53:15 AM [vite] http proxy error at /api/events:
+Error: connect ECONNREFUSED 0.0.0.0:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1607:16)
+5:53:15 AM [vite] http proxy error at /api/health:
+Error: connect ECONNREFUSED 0.0.0.0:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1607:16)
+5:54:24 AM [vite] http proxy error at /api/events:
+Error: connect ECONNREFUSED 0.0.0.0:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1607:16)
+5:54:24 AM [vite] http proxy error at /api/health:
+Error: connect ECONNREFUSED 0.0.0.0:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1607:16)
+5:54:24 AM [vite] http proxy error at /api/events:
+Error: connect ECONNREFUSED 0.0.0.0:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1607:16)
+5:54:24 AM [vite] http proxy error at /api/health:
+Error: connect ECONNREFUSED 0.0.0.0:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1607:16)
+5:54:57 AM [vite] http proxy error at /api/health:
+Error: connect ECONNREFUSED 0.0.0.0:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1607:16) (x2)
+5:54:57 AM [vite] http proxy error at /api/events:
+Error: connect ECONNREFUSED 0.0.0.0:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1607:16)
+5:54:57 AM [vite] http proxy error at /api/events:
+Error: connect ECONNREFUSED 0.0.0.0:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1607:16) (x2)
+5:54:57 AM [vite] http proxy error at /api/health:
+Error: connect ECONNREFUSED 0.0.0.0:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1607:16)

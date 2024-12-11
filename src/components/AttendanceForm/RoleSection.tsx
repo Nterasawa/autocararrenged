@@ -26,14 +26,14 @@ export const RoleSection: React.FC<Props> = ({ formData, setFormData }) => {
               type="radio"
               name="role"
               value="団員"
+              checked={formData.role === "団員"}
               onChange={(e) =>
                 setFormData({
                   ...formData,
                   role: e.target.value as "団員" | "コーチ",
                 })
               }
-              className="hidden"
-              required
+              className="sr-only"
             />
             団員
           </label>
@@ -49,13 +49,14 @@ export const RoleSection: React.FC<Props> = ({ formData, setFormData }) => {
               type="radio"
               name="role"
               value="コーチ"
+              checked={formData.role === "コーチ"}
               onChange={(e) =>
                 setFormData({
                   ...formData,
                   role: e.target.value as "団員" | "コーチ",
                 })
               }
-              className="hidden"
+              className="sr-only"
             />
             コーチ
           </label>

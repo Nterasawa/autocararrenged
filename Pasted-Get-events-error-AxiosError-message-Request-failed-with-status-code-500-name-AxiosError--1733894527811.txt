@@ -1,0 +1,54 @@
+Get events error: 
+AxiosError {message: "Request failed with status code 500", name: "AxiosError", code: "ERR_BAD_RESPONSE", config: {…}, request: XMLHttpRequest, …}
+code: "ERR_BAD_RESPONSE"
+config: Object
+message: "Request failed with status code 500"
+name: "AxiosError"
+request: XMLHttpRequest
+response: Object
+status: 500
+stack: "AxiosError: Request failed with status code 500↵ at settle (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:1203:12)↵ at XMLHttpRequest.onloadend (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:1528:7)↵ at Axios.request (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:2078:41)↵ at async DatabaseService.getEvents (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/services/database.ts:16:24)↵ at async loadEvents (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/pages/EventList.tsx:34:26)"
+get stack: ƒ ()
+set stack: ƒ ()
+[[Prototype]]: Object
+
+AxiosError {message: "Request failed with status code 500", name: "AxiosError", code: "ERR_BAD_RESPONSE", config: {…}, request: XMLHttpRequest, …}
+code: "ERR_BAD_RESPONSE"
+config: Object
+message: "Request failed with status code 500"
+name: "AxiosError"
+request: XMLHttpRequest
+response: Object
+status: 500
+stack: "AxiosError: Request failed with status code 500↵ at settle (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:1203:12)↵ at XMLHttpRequest.onloadend (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:1528:7)↵ at Axios.request (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:2078:41)↵ at async DatabaseService.getEvents (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/services/database.ts:16:24)↵ at async loadEvents (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/pages/EventList.tsx:34:26)"
+get stack: ƒ ()
+set stack: ƒ ()
+[[Prototype]]: Object
+
+Save event error: 
+AxiosError {message: "Request failed with status code 500", name: "AxiosError", code: "ERR_BAD_RESPONSE", config: {…}, request: XMLHttpRequest, …}
+code: "ERR_BAD_RESPONSE"
+config: Object
+message: "Request failed with status code 500"
+name: "AxiosError"
+request: XMLHttpRequest
+response: Object
+status: 500
+stack: "AxiosError: Request failed with status code 500↵ at settle (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:1203:12)↵ at XMLHttpRequest.onloadend (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:1528:7)↵ at Axios.request (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:2078:41)↵ at async DatabaseService.saveEvent (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/services/database.ts:25:24)↵ at async handleCreateEvent (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/pages/EventList.tsx:50:7)"
+get stack: ƒ ()
+set stack: ƒ ()
+[[Prototype]]: Object
+
+イベント作成エラー: 
+AxiosError {message: "Request failed with status code 500", name: "AxiosError", code: "ERR_BAD_RESPONSE", config: {…}, request: XMLHttpRequest, …}
+code: "ERR_BAD_RESPONSE"
+config: Object
+message: "Request failed with status code 500"
+name: "AxiosError"
+request: XMLHttpRequest
+response: Object
+status: 500
+stack: "AxiosError: Request failed with status code 500↵ at settle (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:1203:12)↵ at XMLHttpRequest.onloadend (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:1528:7)↵ at Axios.request (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/node_modules/.vite/deps/axios.js?v=68de3c26:2078:41)↵ at async DatabaseService.saveEvent (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/services/database.ts:25:24)↵ at async handleCreateEvent (https://4ad1bf97-f58e-439b-932f-6f3b99e7c156-00-35u4n9m8mzz4h.sisko.repl.co/src/pages/EventList.tsx:50:7)"
+get stack: ƒ ()
+set stack: ƒ ()
+[[Prototype]]: Object
